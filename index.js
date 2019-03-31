@@ -9,6 +9,5 @@ let name = 'Mohammed'
 let names = ["Mohammed", "Ahmed", "Farman", "Janger", "Eman"]
 
 console.log(name)
-console.log(names)
 
 console.log(PI * r ** 2);
