@@ -1,13 +1,12 @@
-const PI = 22/7
-
-// ..... 1000 line
-
-let r = 1;
+const minimumAge = 18;
 
 let name = 'Mohammed'
+let age = 10;
 
-let names = ["Mohammed", "Ahmed", "Farman", "Janger", "Eman"]
-
-console.log(name)
-
-console.log(PI * r ** 2);
+if (age >= minimumAge) {
+  console.log("You can vote")
+} else if (age === minimumAge - 1) {
+  console.log("One year ahead!")
+} else {
+  console.log("You cannot vote")
+}
