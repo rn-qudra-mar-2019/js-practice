@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "loops": "node loops.js",
+    "func": "node functions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
