@@ -7,6 +7,8 @@
     "start": "node index.js",
     "loops": "node loops.js",
     "func": "node functions.js",
+    "object": "node objects.js",
+    "array": "node arrays.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
