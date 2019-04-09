@@ -1,13 +1,5 @@
-class LivingObject
-{
-  constructor(age) {
-    this.age = age;
-  }
-
-  getAge() {
-    return this.age;
-  }
-}
+// import LivingObject from './classes/LivingObject'
+const LivingObject = require('./classes/LivingObject').default;
 
 class Human extends LivingObject
 {
